@@ -1,3 +1,32 @@
+# Twitter - Part II
+
+This is a basic twitter app to view, compose, favorite, and retweet tweets.
+
+Time spent: **4** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [X] User can compose a tweet. (4pts)
+- [X] User can favorite a tweet. (4pts)
+- [X] User can retweet a tweet. (2pts)
+
+The following **bonus** features are implemented:
+
+- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 140) (2pts)
+- [ ] User can view their profile in a profile tab. (3pts)
+- [ ] User sees embedded images in tweet if available. (3pts)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/yXAosfri7K.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Notes
+After creating a tweet, the tweet page was not being updated although I overloaded "view did appear." This was because this card view was introduced in iOS 13. To get rid of it I had to change the modal presentation type. I clicked on each navigation controller and set the presentation to Full Screen instead of Automatic. (Resolved through help from Slack channel)
+
 # Twitter - Part I
 
 This is a basic twitter app to read your tweets.
